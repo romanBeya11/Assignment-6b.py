@@ -1,0 +1,334 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{93, 89}, {173, 45}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "view_cards_touch_up_inside",
+          "border_width" : 3,
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "View Cards",
+          "uuid" : "DE90ADF4-92F8-4AB5-8F8E-52DCF453F9B9",
+          "class" : "Button",
+          "font_bold" : true,
+          "corner_radius" : 24,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "name" : "view_cards_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{54, 230}, {105, 188}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{190, 110}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageview1",
+          "uuid" : "C2108342-DA66-44C4-8090-EE10CB108D85"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{186, 230}, {110, 186}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageview2",
+          "uuid" : "02D95203-AF69-49EB-9AE6-80F264D09C9E"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{93, 424}, {153, 81}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "draw_another_card_touch_up_inside",
+          "border_width" : 3,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Draw Another Card",
+          "uuid" : "B08E8A64-360F-4402-8FB1-0D123F496FC1",
+          "font_bold" : true,
+          "class" : "Button",
+          "corner_radius" : 33,
+          "name" : "draw_another_card_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{27, 513}, {91, 168}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageview3",
+          "uuid" : "BA88FEBD-6196-4D59-A458-D1A5565AD2C6"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{126, 513}, {91, 168}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageview4",
+          "uuid" : "5AE4FE00-1769-4ACC-B1E6-CD50BCE503EF"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{225, 513}, {88, 168}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageview5",
+          "uuid" : "F9DCE4CE-6202-49EF-9F70-4C5DDD9C29CE"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{457, 68}, {128, 75}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_cards_touch_up_inside",
+          "border_width" : 3,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Check Cards",
+          "uuid" : "478B3F16-8AFA-4953-88EA-76F007056C29",
+          "font_bold" : true,
+          "class" : "Button",
+          "corner_radius" : 28,
+          "name" : "check_cards_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{398, 220}, {100, 180}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "dealer_card_1_imageview",
+          "uuid" : "7A53CA32-FDC3-4802-9CB8-07C3FA8851B4"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{538, 220}, {100, 180}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "dealer_card_2_imageview",
+          "uuid" : "2631BDCF-6D3B-43B9-81CD-97D3B7095829"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{324, 6}, {386, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "border_width" : 4,
+          "name" : "game_of_21_label",
+          "text_color" : "RGBA(0.200000,0.466667,1.000000,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "1F9AC9A6-903B-4E5C-A513-934021602052",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Game of 21",
+          "corner_radius" : 89,
+          "font_size" : 18,
+          "font_name" : "GillSans-UltraBold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{398, 454}, {445, 288}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 31,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "58379F74-51B1-4F44-9543-996FD28B66E4",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "check_cards_label",
+          "font_name" : "GillSans-UltraBold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{642, 75}, {246, 59}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "gambling_label",
+          "text_color" : "RGBA(0.066667,0.377778,1.000000,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "A0F1EB7B-448A-458D-93D4-B311E0378E1B",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Daily Earnings:",
+          "font_size" : 18,
+          "font_name" : "GillSans-UltraBold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{860, 71}, {75, 72}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageview8",
+          "uuid" : "2A37B6F6-9F43-467E-8D9F-18FBFFE8F64A"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{664, 142}, {196, 152}}",
+        "class" : "Label",
+        "attributes" : {
+          "alpha" : 1,
+          "name" : "betting_label",
+          "text_color" : "RGBA(0.714623,0.254088,0.023821,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "B34D0CC7-6DC5-4DED-BB7E-548549964DD8",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "$5000",
+          "background_color" : "RGBA(1.000000,1.044444,1.066667,1.000000)",
+          "font_size" : 32,
+          "font_name" : "Zapfino"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{93, 171}, {173, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "players_cards_label",
+          "text_color" : "RGBA(1.000000,0.033333,0.033333,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "F8EAC720-182C-49E0-ABBC-B82DBE10DB24",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Your Cards",
+          "font_size" : 18,
+          "font_name" : "GillSans-UltraBold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{445, 167}, {175, 36}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "dealers_cards_label",
+          "text_color" : "RGBA(1.000000,0.033333,0.033333,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "BF172D27-C4C8-463C-9ABD-72E5B6FB98AC",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Dealer’s Cards",
+          "font_size" : 18,
+          "font_name" : "GillSans-UltraBold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{903, 71}, {75, 72}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageview6",
+          "uuid" : "65450192-BE47-4838-BBB8-30B6135CA5BB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{936, 71}, {75, 72}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageview7",
+          "uuid" : "3FCECFC8-FCED-4674-8179-9CA698A568E9"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
